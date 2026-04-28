@@ -2,6 +2,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+<div align="center">
+
+**🌐 Languages / 语言 / 語言 / Языки / Langues / Sprachen / Lingue / Idiomas / 언어 / اللغات / زبان‌ها / زبانیں / Språk / Kielet**
+
+[🇨🇳 简体中文](docs/README.zh-CN.md) · [🇭🇰 繁體中文](docs/README.zh-TW.md) · [🇷🇺 Русский](docs/README.ru.md) · [🇫🇷 Français](docs/README.fr.md) · [🇩🇪 Deutsch](docs/README.de.md) · [🇮🇹 Italiano](docs/README.it.md) · [🇧🇷 Português](docs/README.pt.md) · [🇪🇸 Español](docs/README.es.md) · [🇰🇷 한국어](docs/README.ko.md) · [🇸🇦 العربية](docs/README.ar.md) · [🇮🇷 فارسی](docs/README.fa.md) · [🇵🇰 اردو](docs/README.ur.md) · [🇳🇴 Norsk](docs/README.no.md) · [🇫🇮 Suomi](docs/README.fi.md)
+
+</div>
+
 **project-planner** 是一个 OpenCode Agent Skill，用于在代码生成前强制执行专业的项目规划流程，确保每次开发都有清晰的需求分析、架构设计、任务拆解和进度追踪。
 
 ## Features
@@ -199,7 +207,22 @@ RESTful authentication service supporting email/password and OAuth2 login...
 # 仓库结构
 project-planner/
 ├── SKILL.md       # Skill 主文件（725 行）
-└── README.md      # 本文档
+├── README.md      # 本文档（英文，含语言选择器）
+└── docs/
+    ├── README.zh-CN.md   # 简体中文
+    ├── README.zh-TW.md   # 繁體中文
+    ├── README.ru.md      # Русский
+    ├── README.fr.md      # Français
+    ├── README.de.md      # Deutsch
+    ├── README.it.md      # Italiano
+    ├── README.pt.md      # Português
+    ├── README.es.md      # Español
+    ├── README.ko.md      # 한국어
+    ├── README.ar.md      # العربية
+    ├── README.fa.md      # فارسی
+    ├── README.ur.md      # اردو
+    ├── README.no.md      # Norsk
+    └── README.fi.md      # Suomi
 ```
 
 ### 修改后同步
